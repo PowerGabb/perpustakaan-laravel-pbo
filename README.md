@@ -1,24 +1,26 @@
 # UTS Pemrograman Web Lanjut
-<h2>Sistem Informasi Perpustkaakaan Menggunakan Laravel 8</h2> 
-<h3>Aditio Hidayatulloh</h3>
-<h4>A2-2113201044</h4>
-<h4>Teknik Informatika Universitas Sangga Buana YPKP</h4>
+<h2>Sistem Perpustkaakaan Menggunakan Laravel 8</h2> 
+<h3>Kelompok Perpustakaan XII RPL 2</h3>
+
+<h4>Rekayasa Perangkat Lunak</h4>
 
 
+# Cara Menjalankan Aplikasi Web :
 
-# Library yang digunakan :
-<ul>
-<li>Laravel UI</li>
-<li>Bootstrap 4</li>
-<li>FontAwesome</li>
-<li>realrashid/sweet-alert</li>
-<li>Template Ruang Admin</li>
-<li>Select2 untuk multiple select</li>
-<li>DataTables</li>
-<li>DomPDF</li>
-</ul>
+<ol>
+<li>git clone https://github.com/PowerGabb/perpustakaan-laravel-pbo.git</li>
+<li>cd perpustakaan-laravel-pbo</li>
+<li>composer update / composer install</li>
+<li>php artisan key:generate</li>
+<li>php artisan storage:link</li>
+<li>buat database perpustakaan</li>
+<li>ubah nama database sesuai dengan yang sudah di buat di file .env pada project laravel</li>
+<li>php artisan migrate:fresh --seed</li>
+<li>php artisan serve</li>
+<li>Login Sebagai Admin email:griyagpm@gmail.com password:123123123</li>
+</ol>
 
-# Fitur Requirements :
+# Fitur Yang Kita Buat :
 <ol>
 <li>Ada 2 jenis Anggota yaitu Admin dan Anggota</li>
 <li>Setiap User Harus Melakukan Login Untuk Dapat Mengakses Web</li>
@@ -36,11 +38,7 @@
 <li>Admin dapat melihat dan mencetak riwayat peminjaman buku, sedangkan Anggota hanya dapat melihat list buku yang dipinjam olehnya</li>
 </ol>
 
-# ERD Sistem Informasi Perpustakaan :
-<img src="/public/img/erd.png">
 
-# Link Youtube : 
-https://youtu.be/DrCNV7E-eKc
 
 </ul>
 
